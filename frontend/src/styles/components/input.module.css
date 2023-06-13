@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.container span {
+  background: #e45f5f;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}

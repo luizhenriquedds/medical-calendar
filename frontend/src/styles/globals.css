@@ -1,0 +1,29 @@
+:root {
+  /* Colors */
+  --color-background: rgb(102, 174, 255);
+  --color-background-secondary: #FFF;
+  --color-text: #222;
+  --color-border: #222;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+button {
+  cursor: pointer;
+}
